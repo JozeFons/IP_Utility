@@ -1,5 +1,5 @@
 # IP_Utility
-IP Utility for Windows - Create/Save/Update a list of IP addresses, Quick Change or Set IP on any active network adapter, Activity and PORT monitoring and many more...
+IP Utility for Windows - Automatic/Manual IP address list creation, Quick Change/Set of an IP on any active network adapter, Activity/PORT monitoring and many more...
 
 "======================================================================================================"
 				Necessary steps before first launch!!!
@@ -37,4 +37,4 @@ ver.1.1 - minor bug fix
 
 ver.1.2 - Added an automatic process for creating the IP_list folder and IP.txt file in case an user didn't follow the Readme.txt file =)
 
-ver.1.3 - multiple instance check and extented buffer size of cmd window to 9999 lines, minor bug fix
+ver.1.3 - multiple instance check and extented buffer size of main window, minor bug fix
