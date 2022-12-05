@@ -1,11 +1,11 @@
 # IP_Utility
 IP Utility for Windows - Automatic/Manual IP address list creation, Create/Save/Update a list of IP addresses with personal comments, Quick Change/Set of an IP on any active network adapter, Activity/PORT monitoring and many more...
 
-"===================================================================================="
+"==================================================================================="
 
 			Necessary steps before first launch!!!
 				
-"===================================================================================="
+"==================================================================================="
 
 1. Create the IP_list folder and inside create the IP.txt file and then the IP_list insert into C:\ folder in your local disk in this way --> C:\IP_list\IP.txt 
 
@@ -17,11 +17,11 @@ Note: From update ver.1.2 you can skip first step. Check update log below.
 
 4. Enjoy the script!!! =) 
 
-"===================================================================================="
+"==================================================================================="
 
 		Examples how you can setup your IP in the list IP.txt
 		
-"===================================================================================="
+"==================================================================================="
 
 10.1.0.1 Privat address
 
@@ -31,11 +31,11 @@ Note: From update ver.1.2 you can skip first step. Check update log below.
 
 196.245.151.219 255.255.255.0 PLC2
 
-"===================================================================================="
+"==================================================================================="
 
 		     	 ----- Latest updates && logs -----
 			 
-"===================================================================================="
+"==================================================================================="
 
 ver.1.0 - first release 
 
