@@ -1,5 +1,5 @@
 # IP_Utility
-IP Utility for Windows - Automatic/Manual IP address list creation, Create/Save/Update a list of IP addresses with personal comments, Quick Change/Set of an IP on any active network adapter, Activity/PORT monitoring and many more...
+IP Utility for Windows - Automatic/Manual IP address list creation, Create/Save/Update a list of IP addresses with personal comments, Quick Change/Set of an IP on any active network adapter, Check Private, Public Ip and MAC address, Activity/PORT monitoring, PING IP and many more...
 
 	  "========================================================================================"
 
