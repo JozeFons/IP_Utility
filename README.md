@@ -19,7 +19,7 @@ Note: From update ver.1.2 you can skip first step. Check update log below.
 
 	  "========================================================================================"
 	  
-			      Examples how you can setup your IP in the list IP.txt    
+			    Examples how you can setup your IP in the list IP.txt    
 		
 	  "========================================================================================"
 
