@@ -30,7 +30,6 @@
   setlocal EnableDelayedExpansion
   echo "======================================================================================================"
   echo    ver.1.3
-  echo    Download the latest version: https://www.dropbox.com/s/z9w7f24b0bk47qd/IP_utilitka.rar?dl=0
   echo    Script created by: Jozef Fons
   echo    All issues please report to email: fons.jozef@gmail.com
   echo    This script is free of charge. 
