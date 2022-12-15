@@ -31,7 +31,6 @@
   echo "======================================================================================================"
   echo    ver.1.3
   echo    Script created by: Jozef Fons
-  echo    All issues please report to email: fons.jozef@gmail.com
   echo    This script is free of charge. 
   echo    If you wish you can donate for a coffee on the BTC address below. Thanks and enjoy. =D
   echo    BTC: bc1qqepz4jcdxuqkjw60pqm9gq0are65yzf5qur5dw
