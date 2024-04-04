@@ -1,12 +1,12 @@
 # IP_Utility
 IP Utility for Windows - Automatic/Manual IP address list creation, Create/Save/Update a list of IP addresses with personal comments, Quick Change/Set of an IP on any active network adapter, Check Private, Public Ip and MAC address, Activity/PORT monitoring, PING IP and many more...
 
-	  ""
+	  "========================================================================================"
 
 				   Necessary steps before first launch!!!
-				
+       
+          "========================================================================================"			
 	 
-
 1. Create the IP_list folder and inside create the IP.txt file and then the IP_list insert into C:\ folder in your local disk in this way --> C:\IP_list\IP.txt 
 
 Note: From update ver.1.2 you can skip first step. Check update log below.
