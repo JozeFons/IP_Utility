@@ -1,42 +1,39 @@
 @echo off
-  mode con:cols=140 lines=1000
+mode con:cols=140 lines=1000
 
-  set appcount="wmic process where name="IP_Utility.exe" | find "IP_Utility.exe" /c"
-  for /f "tokens=*" %%i in (' %appcount% ') do set app=%%i
+rem Set environment variables
+set "IP_LIST_FILE=C:\IP_list\IP.txt"
+set "APP_NAME=IP_Utility.exe"
+set "BTC_ADDRESS=bc1qqepz4jcdxuqkjw60pqm9gq0are65yzf5qur5dw"
 
-  if %app% gtr 1  ( goto :window
-  ) else          (  goto :start
-  )
+rem Function to check if another instance of the utility is running
+:CheckInstance
+tasklist /fi "imagename eq %APP_NAME%" | find /i "%APP_NAME%" >nul
+if %errorlevel% equ 1 (
+    goto :Start
+) else (
+    echo Another instance of the utility is already running.
+    set /p "openAnother=Do you want to open another instance? [Yes/No]: "
+    if /i "%openAnother%"=="No" goto :Exit
+)
 
-  :window
-  set "select="
-  echo Already another instance is running... / Jedno okno aplikacie je uz aktualne otvorene...
-  echo.
-  set /p select="Do you want to open another instance? / Chcete otvorit dalsie okno aplikacie?  [Yes/No] : " 
-  echo.
+rem Function to start the utility
 
-  call :isCorrect
+:Start
+:ADAPTER_SELECTION
+cls
+setlocal EnableDelayedExpansion
+echo ======================================================================================================
+echo    ver.1.4
+echo    Script created by: Jozef Fons
+echo    This script is free of charge. 
+echo    If you wish you can donate for a coffee on the BTC address below. Thanks and enjoy. =D
+echo    BTC: %BTC_ADDRESS%
+echo ======================================================================================================
+echo                         Network adapter selection / Vyber sietoveho adaptera
+echo ======================================================================================================
 
-  if "%wrong_input%" == "true" cls && goto :window
-
-  if "%select%" == "NO"         ( goto exit
-  ) else if "%select%" == "YES" ( goto :start
-  )
-
-  :start
-
-  :ADAPTER_SELECTION
-  cls
-  setlocal EnableDelayedExpansion
-  echo "======================================================================================================"
-  echo    ver.1.3
-  echo    Script created by: Jozef Fons
-  echo    This script is free of charge. 
-  echo    If you wish you can donate for a coffee on the BTC address below. Thanks and enjoy. =D
-  echo    BTC: bc1qqepz4jcdxuqkjw60pqm9gq0are65yzf5qur5dw
-  echo "======================================================================================================"
-  echo                         Network adapter selection / Vyber sietoveho adaptera
-  echo "======================================================================================================"
+rem Your script continues...
 
   set counter=0
   set "select="
