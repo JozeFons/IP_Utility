@@ -5,7 +5,7 @@ IP Utility for Windows - Automatic/Manual IP address list creation, Create/Save/
 
 				   Necessary steps before first launch!!!
 				
-	  "========================================================================================
+	 
 
 1. Create the IP_list folder and inside create the IP.txt file and then the IP_list insert into C:\ folder in your local disk in this way --> C:\IP_list\IP.txt 
 
