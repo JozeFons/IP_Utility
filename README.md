@@ -44,3 +44,6 @@ ver.1.1 - minor bug fix
 ver.1.2 - Added an automatic process for creating IP_list folder and IP.txt file at very first lauch in case an user didn't follow the Readme.txt file =)
 
 ver.1.3 - multiple instance check and extented buffer size of main window, minor bug fix
+
+ver.1.4 - improvements in multiple instance check, minor bug fix
+
